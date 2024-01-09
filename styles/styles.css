@@ -1,0 +1,93 @@
+/* Primary CSS */
+.primary-color {
+    color: #F00;
+}
+
+/* Banner CSS */
+.banner {
+    text-align: center;
+    color: white;
+    background-image: url(../resources/Banner\ Image.png);
+    height: 600px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding-top: 120px;
+    font-family: 'Merriweather', serif;
+    justify-content: center;
+}
+
+.banner,
+h3 {
+    font-size: 46px;
+}
+
+.banner,
+h1 {
+    font-size: 80px;
+}
+
+/* OFF Section */
+.off-section {
+    text-align: center;
+}
+
+.off {
+    text-align: center;
+    font-family: Inter;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#deals {
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#all {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Party Section CSS */
+.party-section {
+    background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+    display: flex;
+    border-radius: 16px;
+    height: 500px;
+    background-size: auto;
+}
+
+.party-left {
+    padding-left: 126px;
+    text-align: left;
+}
+
+.party-button {
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.party-right {
+    padding-left: 100px;
+}
