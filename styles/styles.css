@@ -1,3 +1,8 @@
+body {
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
 /* Primary CSS */
 .primary-color {
     color: #F00;
@@ -90,4 +95,134 @@ h1 {
 
 .party-right {
     padding-left: 100px;
+}
+
+/* Date Section CSS */
+.date-section {
+    margin-top: 100px;
+    padding: 100px 100px;
+    border-radius: 15px;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    font-size: 25px;
+}
+
+.date-button {
+    margin-top: 60px;
+    box-shadow: none;
+    font-weight: bold;
+    color: white;
+    display: inline-flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F00;
+}
+
+/* bonus section css */
+.bonus-section {
+    display: flex;
+    padding: 150px 50px 100px 100px
+}
+
+.bonus-left {
+    justify-content: left;
+    line-height: normal;
+}
+
+.bonus-middle-img {
+    padding: 40px;
+    margin-right: 60px;
+    margin-left: 10px;
+    border: 15px solid #F00;
+    border-radius: 463px;
+}
+
+/* Portfolio section css */
+.portfolio-section {
+    padding-left: 100px;
+}
+
+#awesome {
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.portfolio-images {
+    margin-top: 60px;
+}
+
+.portfolio-images img:hover {
+    transform: scale(1.07);
+}
+
+.portfolio-images,
+img {
+    padding: 0px 10px 10px 0px;
+}
+
+/* newsletter section css */
+.newsletter {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin-top: 100px;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.subemail {
+    width: 400px;
+    height: 72px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+    padding-left: 100px;
+}
+
+.subbutton {
+    width: 200px;
+    background: #F00;
+    color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    height: 72px;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* footer section css */
+
+.footer {
+    background: #070211;
+    padding: 100px 100px;
+    margin-top: 140px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0px;
+    border-bottom: 1px solid gray;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 80px 0px;
+    color: white;
 }
